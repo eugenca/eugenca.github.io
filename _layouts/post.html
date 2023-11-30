@@ -17,12 +17,8 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="share-links">
-    {% include sharelinks.html %}
-  </div>
-
   <div>
-    <label for="styleSelector">Choose a style:</label>
+    <label for="styleSelector">Choose code highlight style:</label>
     <select id="styleSelector" onchange="changeStylesheet()">
       <option value="stackoverflow-light.min.css">Stack Overflow Light</option>
 	  <option value="stackoverflow-dark.min.css">Stack Overflow Dark</option>
@@ -30,8 +26,12 @@ layout: default
 	  <option value="vs2015.css">Visual Studio 2015 Dark</option>
       <!-- Add more options for other stylesheets -->
     </select>
+  </div>	
+
+  <div class="share-links">
+    {% include sharelinks.html %}
   </div>
-  <!-- Your other content goes here -->
+
   <script>
     function changeStylesheet() {
       var selectedStyle = document.getElementById("styleSelector").value;
