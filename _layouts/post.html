@@ -36,7 +36,21 @@ layout: default
     function changeStylesheet() {
       var selectedStyle = document.getElementById("styleSelector").value;
       document.getElementById("selectedStylesheet").href = "/js/highlightjs/styles/" + selectedStyle;
+      localStorage.setItem("selectedStyle", selectedStyle);
     }
+	
+    function setInitialStyle() {
+      var storedStyle = localStorage.getItem("selectedStyle");
+
+      if (storedStyle) {
+        document.getElementById("selectedStylesheet").href = "/js/highlightjs/styles/" + storedStyle;
+        document.getElementById("styleSelector").value = storedStyle;
+      }
+    }
+	
+    $(document).ready(function () {
+      setInitialStyle();
+    });
   </script>
 
   <div class="post-content e-content" itemprop="articleBody">
