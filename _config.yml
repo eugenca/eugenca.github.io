@@ -34,6 +34,8 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+comments_repo: eugenca/eugenca.github.io
+
 defaults:
   - scope:
       path: ""
