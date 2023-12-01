@@ -114,6 +114,7 @@ public:
 };
 
 // Simple memory allocator for objects of different sizes
+// Caution! A lot of UB could happen with this class, it's only for demonstration purposes!
 class ObjectAllocator {
 public:
     explicit ObjectAllocator(size_t size) : buffer(size), offset(0) {}
