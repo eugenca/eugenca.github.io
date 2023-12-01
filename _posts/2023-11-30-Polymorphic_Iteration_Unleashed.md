@@ -55,48 +55,43 @@ for(const Base* BasePtr: vec)
 This method is easy, familiar to us, but have some costs.
 When we iterate base class pointer, we cannot utilize cache in most cases, spending a lot of time waiting to fetch RAM at different places.
 
-
-What we might want, is to have a data structure that could contain a vector A of vectors B's, each of B's could be a different class. This is achievable because in general, ```sizeof(vector<A>) == sizeof(<B>)```.
-So basic idea could be 
-
 What we might want, is to have a data structure that could contain objects of different types laid out contiguously in memory. Here we would use Type Erasure technique to place object contiguously but save their ability to be polymorphic. There are dozens of article about Type Erasure, and I will just explain the basic idea and provide example implementation.
 Basically Type Erasure happens when we have a common classic virtual interface, templated interface implementation with object as member, which calls object method in it's virtual method. When we use interface, we do not know actual object type, but the difference is that we don't need to derive our from that interface, it just must have all methods from interface.
 
 ```cpp
-class DuckInterface {
+class VirtualDuckInterface {
 public:
-    virtual ~DoActionInterface() = default;
-    virtual void Duck() const = 0;
+    virtual ~VirtualDuckInterface() = default;
+    virtual void VirtualDuck() const = 0;
 };
 
 template <typename T>
-class DoActionInterfaceImpl final : public DoActionInterface {
+class DuckInterfaceImpl final : public VirtualDuckInterface {
 public:
-    explicit DoActionInterfaceImpl(const T& obj) : object(obj) {}
+    explicit DuckInterfaceImpl(const T& obj) : object(obj) {}
 
-    void DoAction() const override {
-        object.DoAction();
+    void VirtualDuck() const override {
+        object.Duck();
     }
 
 private:
     T object;
 };
 
-class MyClass1 {
+class MyClass {
 public:
     int value1;
     
-    void DoAction() const {
-        std::cout << "MyClass1 value1 = " << value1 << std::endl;
+    void Duck() const {
+        std::cout << "MyClass value1 = " << value1 << std::endl;
     }
 };
 
 // Somewhere...
-MyClass1 obj{5};
-DoActionInterfaceImpl<MyClass1> objWrapper(obj);
-DoActionInterface* ptr = &objWrapper;
-std::cout << "a \n";
-ptr->DoAction(); 
+MyClass obj{5};
+DuckInterfaceImpl<MyClass> objWrapper(obj);
+VirtualDuckInterface* ptr = &objWrapper;
+ptr->VirtualDuck(); 
 ```
 
 Now, using that technique you can do many things:
