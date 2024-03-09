@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "OpcomUI.Browser.dll",
   "resources": {
-    "hash": "sha256-9yKMLl49sP9d8J3ZyImAWm+Txm9rBE8dP6IW/4Nka54=",
+    "hash": "sha256-g0mtlWcCXoiKySo2PWdRZZZV43fr6+H/u0GL5Umlpdc=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-skTaSr2j5mfk8eQESi4YuLaQxijd8ak17Le05JhT2bc="
     },
@@ -213,9 +213,9 @@
       "mscorlib.wasm": "sha256-OH3kXneWqQMz6CUSo6POZqIeMqn9+5RR+IgHn5TnIwA=",
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
-      "OpcomUI.wasm": "sha256-+N+Ysbho4cLe9Z5yF108vCBt9FPV9Xw6O2b0EhOg9rM=",
-      "SolverLibrary.wasm": "sha256-zXUbQptGjoe9HepFrCxrbkbRg0fdxWUcyhwkOGuTI8w=",
-      "OpcomUI.Browser.wasm": "sha256-XfGC4mxjj0uyYBHdmXwH4+EK7jvgGpP8VVMEbqF6Isc="
+      "OpcomUI.wasm": "sha256-DCMSd5mh7L39OZwIYBW2+/ByiK0McnOFqVqCzkj4ANE=",
+      "SolverLibrary.wasm": "sha256-0cNPIm8gr+wZqwBrCfKC1qdAnAL2rOWd9RCENWH44kI=",
+      "OpcomUI.Browser.wasm": "sha256-kaua9X1ydKNIO6hL0Ub+9IArgKrYzDmQVWbzcgtBOvM="
     },
     "vfs": {
       "runtimeconfig.bin": {
