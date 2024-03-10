@@ -52,7 +52,7 @@ After short investigation, I found parser library that does parsing from string,
 And now, to demonstrate it - I made webassembly app with Avalonia UI.
 Internally we have ```Func<RK4FuncContext, double>``` which takes context object and returns double, for our integration routine.
 RK4FuncContext is defined as (may be subject to change later):
-```c#
+```csharp
 public struct RK4FuncContext
 {
     public double t { get => IndependentVar; }
@@ -98,7 +98,7 @@ so function string ```"y + p2 + Param[1]"``` is the same as ```"y + y + y"``` or
 Also we can use any math functions provided in NCalc2, such as sin, cos, sqrt.
 
 According to behavior, tests and benchmarks, running compiled ```"(p1 * p3 / p2) + ((9 * 2) % 8)"``` function is equivalent to running next c# method:
-```c#
+```csharp
 public double Function(RK4FuncContext context)
 {
     //                                              (optimized to constant)
