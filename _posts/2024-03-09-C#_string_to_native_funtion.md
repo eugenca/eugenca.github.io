@@ -106,4 +106,8 @@ public double Function(RK4FuncContext context)
     return (context.p1 * context.p3 / context.p2) + (     (9 * 2) % 8     )
 }
 ```
+
 You can try it online: [Click](https://eugenca.github.io/2024/03/08/Runge-Kutta-wasm-app.html)
+
+P.S.
+Actually, in wasm application I don't know clearly how Expression objects are compiled into method, and performance is different between desktop application and web one. It would be topic of my further investigation, and if you know something about it - welcome to comments!
