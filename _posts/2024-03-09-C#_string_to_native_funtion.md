@@ -5,7 +5,8 @@
 Recently I came with idea to make a calculator for some math problems, specifically to optimal control, which uses integration routines on non-linear differential systems of equations.
 We can integrate system of differential equation (Cauchy problem) by using different methods, one of which is [Runge-Kutta](https://en.wikipedia.org/wiki/Runge%E2%80%93Kutta_methods) 4th order method.
 We set N of equations with N of initial values, start and end independent variable, and integration step.
-For example, free fall (g~9.81), without air resistance, with initial position (posX, posX) and speed (VelX, VelY) from t0 = 0 to tb = 51
+For example, free fall (g ~ 9.81), without air resistance, with initial position (posX, posX) and speed (VelX, VelY) from t0 = 0 to tb = 51
+```
 dx(t)/dt = Vx(t)
 dy(t)/dt = Vy(t)
 dVx(t)/dt = 0
@@ -15,7 +16,7 @@ x0 = posX
 y0 = posY
 Vx0 = VelX
 Vy0 = VelY
-
+```
 
 ## Programming part
 Now to the interesting part:
