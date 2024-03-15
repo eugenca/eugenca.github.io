@@ -30,22 +30,22 @@ This shows how to write functions:
     **if, in, max, min, pow**
 
 
-# Examples:
+## Examples:
 
 [**Example problem from math.stackexchange:**](https://math.stackexchange.com/questions/721076/help-with-using-the-runge-kutta-4th-order-method-on-a-system-of-2-first-order-od)
 
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/8bc6b51b-9f88-49d1-8c64-e7740c4a13f9" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/e1c8934b-ca4b-46ba-af8e-000d9b592763" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 
-## Entering parameters and solving with delta step = 0.1:
+# Entering parameters and solving with delta step = 0.1:
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/2be82cad-35f5-4b47-b0e9-325bc7d60d9f" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
-## Entering parameters and solving with delta step = 0.01:
+# Entering parameters and solving with delta step = 0.01:
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/b82fba85-f236-41ab-a463-5da25258e61c" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 
 
-# Example with functions:
+## Example with functions:
 
-## Solution in Wolfram alpha:
+# Solution in Wolfram alpha:
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/6cc62c99-b998-4cfb-98e8-3292c806280c" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
-## Solution in our application:
+# Solution in our application:
 <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/99978a30-2e24-495e-968a-7e0d6260e366" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
