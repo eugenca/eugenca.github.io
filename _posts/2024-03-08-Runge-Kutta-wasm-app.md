@@ -34,18 +34,18 @@ This shows how to write functions:
 
 [**Example problem from math.stackexchange:**](https://math.stackexchange.com/questions/721076/help-with-using-the-runge-kutta-4th-order-method-on-a-system-of-2-first-order-od)
 
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/8bc6b51b-9f88-49d1-8c64-e7740c4a13f9" /> </kbd>
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/e1c8934b-ca4b-46ba-af8e-000d9b592763" /> </kbd>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/8bc6b51b-9f88-49d1-8c64-e7740c4a13f9" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/e1c8934b-ca4b-46ba-af8e-000d9b592763" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 
 ## Entering parameters and solving with delta step = 0.1:
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/2be82cad-35f5-4b47-b0e9-325bc7d60d9f" /> </kbd>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/2be82cad-35f5-4b47-b0e9-325bc7d60d9f" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 ## Entering parameters and solving with delta step = 0.01:
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/b82fba85-f236-41ab-a463-5da25258e61c" /> </kbd>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/b82fba85-f236-41ab-a463-5da25258e61c" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 
 
 # Example with functions:
 
 ## Solution in Wolfram alpha:
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/6cc62c99-b998-4cfb-98e8-3292c806280c" /> </kbd>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/6cc62c99-b998-4cfb-98e8-3292c806280c" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
 ## Solution in our application:
-<kbd> <img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/99978a30-2e24-495e-968a-7e0d6260e366" /> </kbd>
+<img src="https://github.com/eugenca/eugenca.github.io/assets/5236164/99978a30-2e24-495e-968a-7e0d6260e366" style="border-radius: 5px; border: 2px solid #c1f1f5"/>
