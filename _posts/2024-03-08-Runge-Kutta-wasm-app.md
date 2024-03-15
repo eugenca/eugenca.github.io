@@ -25,6 +25,6 @@ This shows how to write functions:
     x, y, z (easy method for first three functions);\
     p1, p2, ... p20 (moderate method for first 20 functions);\
     Param(1), Param(2), ... Param(N) for any of N functions;
-* We can write math operations and some functions, such as:
-**Abs, Acos, Asin, Atan, Atan2, Ceiling, Cos, Cosh, Exp, Floor, IEEERemainder, Log, Log10, Sign, Sin, Sinh, Sqrt, Tan, Tanh, Truncate**
-**if, in, max, min, pow**
+* We can write math operations and some functions, such as:\
+    **Abs, Acos, Asin, Atan, Atan2, Ceiling, Cos, Cosh, Exp, Floor, IEEERemainder, Log, Log10, Sign, Sin, Sinh, Sqrt, Tan, Tanh, Truncate**\
+    **if, in, max, min, pow**
