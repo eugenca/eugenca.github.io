@@ -7,7 +7,7 @@ Click here to see it: [Click](https://eugenca.github.io/wasm_projects/runge-kutt
 ### Features:
 * Robust calculation on the client side with web wasm application
 * Almost unlimited number of functions / parameters
-* Automatic parsing of functions (with some rules, see below)
+* Automatic parsing of functions (with some rules, see below) - powered by [NCalc2](https://github.com/sklose/NCalc2/tree/master)
 * Optimization of function formulas - with [expression optimizer](https://github.com/Thorium/Linq.Expression.Optimizer)
 * Almost native function performance compared to c# method (may be not totally true for web version, but true for desktop one)
 
